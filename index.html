@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interfaz Responsive</title>
+  <!-- Importamos el CSS de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ <!-- Estilos personalizados -->
+ <style>
+  /* Estilo para el fondo de la página */
+  body {
+      background-color: #00ffaab2; /* Color turqueza */
+      color: black; /* Texto blanco para contraste */
+      margin-bottom: 60px; /* Asegura espacio suficiente para el fin de página */
+    }
+ /* Ajuste para componentes específicos */
+ header, footer {
+      background-color: #3f00b3; /* Azul más oscuro para encabezado y pie de página */
+    }
+     /* Estilo para el pie de página */
+     footer {
+      position: fixed; /* Fija el pie de página en la parte inferior */
+      bottom: 0;
+      width: 100%; /* Asegura que ocupe todo el ancho */
+      text-align: center;
+      padding: 10px 0;
+    }
+</style>
+</head>
+<body>
+  <!-- Contenedor principal de la página -->
+  <div class="container-fluid">
+    <!-- Encabezado -->
+    <header class="text-rbg text-center py-3">
+      <h1>Diseño de paguina web Reponsiba bienvenidos</h1>
+      <p>este diseño es adaptable a cualquier tipo de dispositivo</p>
+    </header>
+    <!-- Sección de contenido -->
+    <main class="my-4">
+      <!-- Sistema de rejillas para organizar el contenido -->
+      <div class="row">
+      <!-- Columna izquierda (ocupa 6 de 12 columnas en pantallas grandes y todo el ancho en pequeñas) -->
+        <div class="col-md-6 col-12 p-3">
+          <h2>¿Qué es un diseño responsive?</h2>
+          <p>Concepto: Un diseño responsive adapta el contenido al tamaño de la pantalla, proporcionando una experiencia de usuario óptima.</p>
+        </div>
+        <!-- Columna derecha (ocupa 6 de 12 columnas en pantallas grandes y todo el ancho en pequeñas) -->
+        <div class="col-md-6 col-12 p-3">
+          <img src="imagen.jpg" alt="image" class=”full-width-img”/400x300">
+        </div>
+      </div>
+    </main>
+
+    <!-- Fin de página -->
+    <footer>
+      <p>&copy; 20/11/2024 Mi Paguina Web.</p>
+    </footer>
+  <!-- Importamos el JavaScript de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

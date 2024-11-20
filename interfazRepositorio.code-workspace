@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../Registro de Vehiculos"
+		},
+		{
+			"path": "."
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "jdk",
+				"request": "launch",
+				"name": "Launch Java App"
+			}
+		]
+	},
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "InterfazRepositorio"
+	}
+}
